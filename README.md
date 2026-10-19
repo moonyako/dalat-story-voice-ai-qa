@@ -7,7 +7,9 @@
 
 🎬 **Watch the Live QA Demo (2:43)** — Click the thumbnail above to watch on YouTube.
 
-This project explores quality engineering for a conversational AI voice agent built for a fictional Vietnamese-inspired café.
+**Dalat Story** is a fictional Vietnamese-inspired café featuring an AI-powered voice assistant built with Deepgram and Google Gemini.
+
+Customers can interact with the agent through natural voice conversations to explore the menu, ask about prices, and place or modify simulated orders. The agent uses speech recognition, an LLM, and text-to-speech to understand requests and respond in real time.
 
 **QA coverage includes:**
 - Menu and pricing validation
