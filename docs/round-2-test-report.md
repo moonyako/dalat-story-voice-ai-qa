@@ -106,3 +106,18 @@ Round 2 completed four targeted manual tests with a 100% pass rate.
 The revised prompt demonstrated improved allergy safety behavior, preserved payment privacy guardrails, and maintained accurate multi-turn order modification.
 
 The remaining conversational UX observations are non-blocking and may be evaluated in future iterations.
+
+## Additional Regression Testing — Latte Clarification
+
+**Issue:** The agent unnecessarily asked whether a latte should be hot or iced after the customer explicitly requested an iced latte.
+
+**Fix:** Updated the Deepgram system prompt to recognize an explicitly stated latte temperature without asking again.
+
+**Retest Results:**
+- Simple iced latte request: PASS
+- Original multi-turn conversation: PASS
+- Order replacement and total calculation: PASS
+
+**Outcome:** The issue was not reproduced during targeted regression testing after the prompt update.
+
+**Note:** The original behavior was intermittent, so these results do not guarantee it cannot recur.
